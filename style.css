@@ -343,3 +343,183 @@ border-radius: 2px;
     width: 6%;
     color: #707A8A;
 }
+.portfolio{
+    width: 85%;
+    height: 35px;
+    /* border: 1px solid gold; */
+    margin: 20px auto;
+    font-size: 24px;
+    color: #1E2329;
+    font-weight: bold;
+}
+.getstarted{
+    width: 85%;
+    height: 50px;
+    /* border: 1px solid rgb(0, 106, 255); */
+    margin: 20px auto;
+    font-size: 16px;
+    color: #181A20;
+}
+.getstarted button{
+    background-color: #FCD535;
+    height: 100%;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+}
+.cypto_Portfolio{
+    width: 85%;
+    height: 55px;
+    /* border: 1px solid gold; */
+    margin: 100px auto 30px auto;
+    font-size: 24px;
+    color: #1E2329;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}  
+.firsttrade{
+    width: 85%;
+    height: 35px;
+    /* border: 1px solid rgb(0, 255, 64); */
+    margin: 0px auto 20px auto;
+    color:#474D57;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* margin-top: 16px; */
+    min-width: 767px;
+    display: block;
+}  
+.creating_Portfolio{
+    width: 85%;
+    height: 862px;
+    border: 1px solid seagreen;
+    margin: 20px auto;
+    display: flex;
+    box-sizing: border-box;
+   
+    background-color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.textSection{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.imageSection{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid rgb(0, 191, 255); */
+    position: relative;
+}
+.identity{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid rgb(30, 255, 0); */
+    margin-top: 30px;
+    display: flex;
+}
+.icon1{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid rgb(255, 119, 0); */
+
+}
+.icon1_text{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid rgb(34, 0, 255); */
+    margin-left: 10px;
+}
+.identity_para1{
+    font-size: 24px;
+    color: #1E2329;
+    font-weight: 600;
+}
+.identity_para2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474D57;
+}
+
+
+.account{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid rgb(30, 255, 0); */
+    margin-top: 80px;
+    display: flex;
+}
+.icon2{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid rgb(204, 255, 0); */
+
+}
+.icon2_text{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid rgb(255, 0, 170); */
+    margin-left: 10px;
+}
+.account_para1{
+    font-size: 24px;
+    color: #1E2329;
+    font-weight: 600;
+}
+.account_para2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474D57;
+}
+.trading{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid rgb(0, 204, 255); */
+    margin-top: 80px;
+    display: flex;  
+}
+.icon3{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid rgb(255, 0, 0); */
+
+}
+.icon3_text{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid rgb(246, 220, 237); */
+    margin-left: 10px;
+}
+
+.trading_para1{
+    font-size: 24px;
+    color: #1E2329;
+    font-weight: 600;
+}
+.trading_para2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474D57;
+}
+
+.imageSection img{
+    position: absolute;
+    left: 120px;
+}
+.button2{
+    background-color: #FCD535;
+    height: 50px;
+    width: 226px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 120px;
+    
+} 
