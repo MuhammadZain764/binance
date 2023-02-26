@@ -523,3 +523,17 @@ border-radius: 2px;
     left: 120px;
     
 } 
+.dailyRewards{
+    margin: 90px auto 30px auto;
+    width: 85%;
+    height: 45px;
+    color: #1E2329;
+    font-size: 32px;
+}
+.dailyRewards2{
+    margin: 20px auto 30px auto;
+    width: 85%;
+    height: 35px;
+    color: #474D57;
+    font-size: 20px;
+}
