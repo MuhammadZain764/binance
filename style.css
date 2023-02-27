@@ -540,11 +540,17 @@ border-radius: 2px;
 .col{
     height: 200px;
     /* border: 1px solid greenyellow; */
-margin-bottom: 100px ;
+margin-bottom: 50px ;
 margin-left: 10px;
 margin-right: 10px;
 border-radius: 10px;
 background-color: #FAFAFA;
+}
+.col:hover{
+    border: 3px solid #FCD535;
+    border-radius: 20px;
+    transition: all ease-in 0.1s;
+    
 }
 .col img{
     position: relative;
@@ -566,6 +572,54 @@ position: relative;
 bottom: 20px;
 }
 
+.earn{
+    width: 85%;
+    height: 50px;
+    /* border: 1px solid rgb(0, 106, 255); */
+    margin: 10px auto;
+    font-size: 16px;
+    color: #181A20;
+}
+.earn button{
+    background-color: #FCD535;
+    height: 100%;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+}
+.possibilities{
+    width: 60%;
+    height: 100px;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 40px;
+    color: #1E2329;
+    margin: 70px 90px 10px 90px;
+}
+.star{
+    margin: 30px auto;
+    width: 85%;
+    height: 570px;
+    background: #FAFAFA;
+}
+.card-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 48px;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.card-img-bottom {
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+}
 
 
 @media only screen and (max-width: 1024px){
