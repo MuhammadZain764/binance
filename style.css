@@ -395,7 +395,7 @@ border-radius: 2px;
 .creating_Portfolio{
     width: 85%;
     height: 862px;
-    border: 1px solid seagreen;
+    /* border: 1px solid seagreen; */
     margin: 20px auto;
     display: flex;
     box-sizing: border-box;
@@ -536,4 +536,67 @@ border-radius: 2px;
     height: 35px;
     color: #474D57;
     font-size: 20px;
+}
+.col{
+    height: 200px;
+    /* border: 1px solid greenyellow; */
+margin-bottom: 100px ;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 10px;
+background-color: #FAFAFA;
+}
+.col img{
+    position: relative;
+    top:10px;
+}
+.P_one{
+    font-size: 20px;
+    color: #1E2329;
+    padding-top: 10px;
+}
+.P_two{
+    font-size: 16px;
+    color: #1E2329;
+}
+.P_three{
+    font-size: 24px;
+    color: #03A66D;
+position: relative;
+bottom: 20px;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    
+    .navbar{
+        max-width: 200px;
+    }
+    
+    
+    .login_heading{
+        display: none;
+    }
+    .register{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    .reedemgift{
+        display: none;
+    }
+    .fa-solid{
+        display: none;
+    }
+    .firstContainertext{
+        width: 45%;
+    }
+    .blackContainer{
+        max-width: 300px;
+    }
+    .blackContainer img{
+max-width: 600px;
+    }
 }
